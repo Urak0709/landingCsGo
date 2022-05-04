@@ -1,0 +1,26 @@
+header {
+    background: url('../img/bg1.png') no-repeat center top/cover;
+}
+.header__sub-title {
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.header__text {
+    padding-top: 80px;
+    padding-bottom: 125px;
+    width: 470px;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+}
+.header__button {
+    display: block;
+    padding: 25px 120px;
+    max-width: 325px;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: all .5s ease;
+}
+.header__button:hover {
+    background-color: rgba(255, 255, 255, 0.501);
+}

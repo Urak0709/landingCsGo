@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+.header {
+    padding-top: 40px;
+    min-height: 100vh;
+}
+.header__content {
+    padding-top: 80px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    position: relative;
+    display: flex;
+}
+.menu__item:not(:last-child) {
+    margin-right: 40px;
+}
+.menu__link {
+    color: #fff;
+    font-size: 20px;
+    transition: all .5s ease;
+}
+.menu__link:hover {
+    opacity: 0.4;
+}
+.menu__item:hover .sub-menu {
+    display: block;
+}
+.header__title {
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.header__about {
+    position: absolute;
+    padding: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.666771) 25.31%, #000000 100%);
+}
+.header__item {
+    margin-bottom: 140px;
+}
+header {
+    background: url('../img/bg1.png') no-repeat center top/cover;
+    min-height: 100vh;
+}
+.header__sub-title {
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.header__text {
+    padding-top: 80px;
+    padding-bottom: 125px;
+    width: 470px;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+}
+.header__button {
+    display: block;
+    padding: 25px 120px;
+    max-width: 325px;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: all .5s ease;
+}
+.header__button:hover {
+    background-color: rgba(255, 255, 255, 0.501);
+}
+.section {
+    padding: 40px 0;
+    min-height: 100vh;
+}
+.section-about {
+    position: relative;
+    background: url('../img/bg2.png') no-repeat center top/cover;
+}
+.section-learn {
+    position: relative;
+    background: url('../img/bg3.png') no-repeat center top/cover;
+}
+.section__content {
+}
+.section__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.section__about {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.about__title {
+    padding-bottom: 40px;
+    text-align: center;
+}
+.about__text {
+    text-align: center;
+}
+.footer {
+    padding: 40px 0;
+    background-color: #000;
+}
+.footer__copyright {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
